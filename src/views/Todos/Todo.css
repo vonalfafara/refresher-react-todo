@@ -1,0 +1,26 @@
+.todos-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.todos-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+.todos-container form input,
+.todos-container form textarea {
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  border: 1px solid rgb(212, 212, 212);
+}
+
+.todos-container form input[type="submit"] {
+  border: 0;
+  background-color: rgb(17, 59, 78);
+  color: white;
+  cursor: pointer;
+}

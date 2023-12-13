@@ -1,0 +1,24 @@
+.navbar {
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: flex-end;
+  background-color: rgb(17, 59, 78);
+}
+
+.navbar nav {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.navbar nav a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar nav button {
+  border: 0;
+  background-color: transparent;
+  color: white;
+  padding: 0;
+  cursor: pointer;
+}

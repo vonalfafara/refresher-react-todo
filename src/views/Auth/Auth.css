@@ -1,0 +1,34 @@
+.auth {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  background-color: rgb(130, 177, 200);
+  padding: 1rem;
+}
+
+.auth form input[type="text"],
+.auth form input[type="email"],
+.auth form input[type="password"] {
+  border-radius: 0.3rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid rgb(212, 212, 212);
+}
+
+.auth form input[type="submit"] {
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  background-color: rgb(17, 59, 78);
+  border: 0;
+  color: white;
+}
+
+.auth form a {
+  text-decoration: none;
+}

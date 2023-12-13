@@ -1,0 +1,41 @@
+.todo {
+  position: relative;
+  border: 1px solid rgb(46, 58, 95);
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+  overflow: hidden;
+  color: white;
+}
+
+.todo img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  z-index: -2;
+}
+
+.todo .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: -1;
+}
+
+.todo button {
+  display: block;
+  margin-left: auto;
+  border: 0;
+  background-color: rgb(193, 69, 27);
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  color: white;
+  cursor: pointer;
+}
