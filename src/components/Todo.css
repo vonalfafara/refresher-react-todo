@@ -29,13 +29,28 @@
   z-index: -1;
 }
 
+.todo .button-group {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+}
+
 .todo button {
-  display: block;
-  margin-left: auto;
   border: 0;
-  background-color: rgb(193, 69, 27);
   padding: 0.5rem 1rem;
   border-radius: 0.3rem;
   color: white;
   cursor: pointer;
+}
+
+.todo button.info {
+  background-color: rgb(27, 99, 193);
+}
+
+.todo button.warning {
+  background-color: rgb(193, 163, 27);
+}
+
+.todo button.danger {
+  background-color: rgb(193, 69, 27);
 }
